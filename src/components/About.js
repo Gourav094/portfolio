@@ -7,14 +7,14 @@ const About =forwardRef((props, ref)=> {
 
 
     return (
-        <div ref={ref} id='about' className='text-white pl-24 pt-24 bg-neutral-800 h-screen w-full '>
+        <div ref={ref} id='about' className='text-white px-4 py-10 md:pl-24 md:pt-24 bg-neutral-800 md:h-screen '>
             <div className='max-w-6xl mx-auto'>
-                <div className='pb-14'>
+                <div className='pb-14 text-sm sm:text-base'>
                     <h1 className=''> <span className='text-2xl font-medium'>About me</span>
                         <span className='hidden md:inline-flex md:w-60 lg:w-72 h-[.5px] bg-gray-600 mb-2 ml-6'></span>
                     </h1>
                     <br />
-                    <p className='pl-12 w-3/4 tracking-wide text-gray-200'>My specialization is centered around <span className='text-[#ffc86b]'>full-stack development </span>, creating backend using node and express and the creation of UI / UX, with a specific focus on Javascript, React and solid expertise in databases, API Rest integrations. With good knowledege of Data structures, I've solved 550+ problems on leetcode. My approach translates into the creation of modern and intuitive web platforms , where the fusion of aesthetics and functionality is key to achieving exceptional results.</p>
+                    <p className='md:pl-12 w-full md:w-3/4 tracking-wider text-gray-200'>My specialization is centered around <span className='text-[#ffc86b]'>full-stack development </span>, creating backend using node and express and the creation of UI / UX, with a specific focus on Javascript, React and solid expertise in databases, API Rest integrations. With good knowledege of Data structures, I've solved 550+ problems on leetcode. My approach translates into the creation of modern and intuitive web platforms , where the fusion of aesthetics and functionality is key to achieving exceptional results.</p>
                 </div>
                 <div>
                     <h1>Here are some of the technologies that are part of my current stack</h1>

@@ -24,3 +24,6 @@ export const Wheather_Github = 'https://github.com/Gourav094/weather-forecast'
 
 export const Todo_Link = 'https://todo03.vercel.app/'
 export const Todo_Github = 'https://github.com/Gourav094/Todo'
+
+export const Notes_Link = 'https://notes-app-gourav094.vercel.app/'
+export const Notes_Github = 'https://github.com/Gourav094/Notes-app'
