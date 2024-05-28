@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { ImHtmlFive } from 'react-icons/im'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiCss3, SiJavascript, SiTailwindcss, SiFirebase, SiCplusplus, SiMongodb, SiGraphql, SiExpress, SiDocker, SiTypescript, SiAmazonaws, SiThealgorithms } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiTailwindcss, SiFirebase, SiCplusplus, SiMongodb, SiGraphql, SiExpress, SiDocker, SiTypescript, SiAmazonaws, SiThealgorithms, SiNextdotjs } from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'
 const About =forwardRef((props, ref)=> {
 
@@ -46,8 +46,8 @@ const About =forwardRef((props, ref)=> {
                             <span>TypeScript</span>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <SiFirebase />
-                            <span>Firebase</span>
+                            <SiNextdotjs />
+                            <span>Next</span>
                         </div>
                         <div className='flex items-center gap-2'>
                             <FaNodeJs />
@@ -66,6 +66,10 @@ const About =forwardRef((props, ref)=> {
                             <span>GraphQL</span>
                         </div>
                         <div className='flex items-center gap-2'>
+                            <SiFirebase />
+                            <span>Firebase</span>
+                        </div>
+                        <div className='flex items-center gap-2'>
                             <SiDocker />
                             <span>Docker</span>
                         </div>
@@ -77,10 +81,7 @@ const About =forwardRef((props, ref)=> {
                             <SiCplusplus />
                             <span>C++</span>
                         </div>
-                        <div className='flex items-center gap-2'>
-                            <SiThealgorithms/>
-                            <span>DSA</span>
-                        </div>
+                       
 
                     </div>
                 </div>
