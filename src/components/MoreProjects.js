@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaRegFolder } from 'react-icons/fa'
 import { FiExternalLink } from "react-icons/fi";
-import { Notes_Github, Notes_Link, Todo_Github, Todo_Link, Url_Github, Url_Link, Wheather_Github, Wheather_Link } from './Constant';
+import { projectLinks } from './Constant';
 
 const MoreProjects = () => {
 
@@ -10,12 +10,30 @@ const MoreProjects = () => {
     return (
         <div className='bg-neutral-900 h-fit text-white py-10'>
             <div className='max-w-6xl mx-auto px-4 md:py-24'>
-                <h2 className='text-center text-xl md:text-3xl font-semibold mb-10'>Other Projects</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 lg:px-10'>
+                <h2 className='text-center text-xl md:text-3xl font-semibold mb-20' data-aos="fade-up">Other Projects</h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 lg:px-10'  data-aos="fade-up" data-aos-duration="600">
                     <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
                         <div className='flex justify-between items-center'>
-                            <a alt='link' href={Url_Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
-                            <a alt='link' href={Url_Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+                            <a alt='link' href={projectLinks.Streamer.Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.Streamer.Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+
+                        </div>
+                        <div>
+                            <h2 className='text-xl font-bold tracking-wide text-gray-600 group-hover:text-gray-800'>Streamer</h2>
+                            <p className='text-sm mt-3 text-gray-500'>A Video Streaming Platform, featuring Infinite Scroll, Live Chat with API pooling, and a powerful search bar with Debouncing.</p>
+                        </div>
+                        <ul className='text-xs md:text-sm text-gray-500 flex gap-2 flex-wrap '>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Javascript</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">TailwindCSS</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">React</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Redux</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Firebase</li>
+                        </ul>
+                    </div>
+                    <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
+                        <div className='flex justify-between items-center'>
+                            <a alt='link' href={projectLinks.UrlShortener.Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.UrlShortener.Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
 
                         </div>
                         <div>
@@ -32,8 +50,48 @@ const MoreProjects = () => {
                     </div>
                     <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
                         <div className='flex justify-between items-center'>
-                            <a alt='link' href={Wheather_Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
-                            <a alt='link' href={Wheather_Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+                            <a alt='link' href={projectLinks.Ticktick.Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.Ticktick.Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+
+                        </div>
+                        <div>
+                            <h2 className='text-xl font-bold tracking-wide text-gray-600 group-hover:text-gray-800'>Tick Tick</h2>
+                            <p className='text-sm mt-3 text-gray-500'>A task management application built with the MERN stack, offering seamless task creation, updating, and deletion</p>
+                        </div>
+                        <ul className='text-xs md:text-sm text-gray-500 flex gap-2 flex-wrap '>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Javascript</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">React</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Redux-thunk</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Node</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Express</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">MongoDB</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">JWT</li>
+                        </ul>
+                    </div>
+                    
+                    {show && <> 
+                    <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
+                        <div className='flex justify-between items-center'>
+                            <a alt='link' href={projectLinks.NotesApp.Github} ><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.NotesApp.Link} ><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+
+                        </div>
+                        <div>
+                            <h2 className='text-xl font-bold tracking-wide text-gray-600 group-hover:text-gray-800'>Notes</h2>
+                            <p className='text-sm mt-3 text-gray-500'>Project based on Javascript and React.js, stores user's data on their browser using local storage</p>
+                        </div>
+                        <ul className='text-xs md:text-sm text-gray-500 flex gap-2 flex-wrap '>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Html</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Css</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Javascript</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">React</li>
+                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">local storage</li>
+                        </ul>
+                    </div>
+                    <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
+                        <div className='flex justify-between items-center'>
+                            <a alt='link' href={projectLinks.WeatherForecast.Github}><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.WeatherForecast.Link}><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
 
                         </div>
                         <div>
@@ -49,8 +107,8 @@ const MoreProjects = () => {
                     </div>
                     <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
                         <div className='flex justify-between items-center'>
-                            <a alt='link' href={Todo_Github} ><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
-                            <a alt='link' href={Todo_Link} ><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
+                            <a alt='link' href={projectLinks.Todo.Github} ><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
+                            <a alt='link' href={projectLinks.Todo.Link} ><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
 
                         </div>
                         <div>
@@ -62,24 +120,6 @@ const MoreProjects = () => {
                             <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Javascript</li>
                             <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">React</li>
                             <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Redux</li>
-                        </ul>
-                    </div>
-                    {show && <> <div className="w-full h-full lg:h-70 rounded-lg bg-gray-200 bg-opacity-95 p-4 lg:p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group cursor-pointer">
-                        <div className='flex justify-between items-center'>
-                            <a alt='link' href={Notes_Github} ><span className='text-2xl text-gray-700'><FaRegFolder /></span></a>
-                            <a alt='link' href={Notes_Link} ><span className='text-2xl text-gray-700'><FiExternalLink /></span></a>
-
-                        </div>
-                        <div>
-                            <h2 className='text-xl font-bold tracking-wide text-gray-600 group-hover:text-gray-800'>Notes</h2>
-                            <p className='text-sm mt-3 text-gray-500'>Project based on Javascript and React.js, stores user's data on their browser using local storage</p>
-                        </div>
-                        <ul className='text-xs md:text-sm text-gray-500 flex gap-2 flex-wrap '>
-                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Html</li>
-                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Css</li>
-                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">Javascript</li>
-                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">React</li>
-                            <li className="bg-gray-200 text-[#185CA3] py-1 px-2 rounded-md text-sm backdrop-blur-sm self-end">local storage</li>
                         </ul>
                     </div>
                      </>}

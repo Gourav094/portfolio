@@ -1,16 +1,17 @@
 import React, { forwardRef } from 'react'
 import { ImHtmlFive } from 'react-icons/im'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiCss3, SiJavascript, SiTailwindcss, SiFirebase, SiCplusplus, SiMongodb, SiGraphql, SiExpress, SiDocker, SiTypescript } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiTailwindcss, SiFirebase, SiCplusplus, SiMongodb, SiGraphql, SiExpress, SiDocker, SiTypescript, SiAmazonaws, SiThealgorithms } from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'
 const About =forwardRef((props, ref)=> {
 
 
     return (
-        <div ref={ref} id='about' className='text-white px-4 py-10 md:pl-24 md:pt-24 bg-neutral-800 md:h-screen '>
+        <div ref={ref} id='about' className='text-white px-4 py-10 md:pl-24 md:pt-24 bg-neutral-800 md:min-h-screen '>
             <div className='max-w-6xl mx-auto'>
-                <div className='pb-14 text-sm sm:text-base'>
-                    <h1 className=''> <span className='text-2xl font-medium'>About me</span>
+                <div className='pb-14 text-sm sm:text-base'  data-aos="fade-up">
+                    <h1 className=''> 
+                        <span className='text-2xl font-medium'>About me</span>
                         <span className='hidden md:inline-flex md:w-60 lg:w-72 h-[.5px] bg-gray-600 mb-2 ml-6'></span>
                     </h1>
                     <br />
@@ -19,7 +20,7 @@ const About =forwardRef((props, ref)=> {
                 <div>
                     <h1>Here are some of the technologies that are part of my current stack</h1>
                     <br />
-                    <div className='max-w-[550px] grid grid-cols-3 gap-6 mt-4 ml-2'>
+                    <div className='max-w-[550px] grid grid-cols-3 gap-6 mt-4 ml-2' data-aos="zoom-in-up" data-aos-duration="1500">
                         <div className='flex items-center gap-2'>
                             <ImHtmlFive />
                             <span>HTML</span>
@@ -69,8 +70,16 @@ const About =forwardRef((props, ref)=> {
                             <span>Docker</span>
                         </div>
                         <div className='flex items-center gap-2'>
+                            <SiAmazonaws/>
+                            <span>AWS</span>
+                        </div>
+                        <div className='flex items-center gap-2'>
                             <SiCplusplus />
                             <span>C++</span>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <SiThealgorithms/>
+                            <span>DSA</span>
                         </div>
 
                     </div>
