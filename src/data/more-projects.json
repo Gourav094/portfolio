@@ -1,0 +1,83 @@
+{
+    "projects": [
+      {
+        "name": "Streamer",
+        "description": "A Video Streaming Platform, featuring Infinite Scroll, Live Chat with API pooling, and a powerful search bar with Debouncing.",
+        "technologies": [
+          "Javascript",
+          "TailwindCSS",
+          "React",
+          "Redux",
+          "Firebase"
+        ],
+        "githubLink": "https://github.com/Gourav094/Streamer",
+        "projectLink": "https://streamer03.netlify.app/"
+      },
+      {
+        "name": "Url Shortener",
+        "description": "A MERN stack application used to shorten the long URL's. Best practices and techniques were implemented to provide persistent data.",
+        "technologies": [
+          "Javascript",
+          "Node",
+          "React",
+          "Express",
+          "MongoDB"
+        ],
+        "githubLink": "https://github.com/Gourav094/url-shortener",
+        "projectLink": "https://url-shortener-gourav094.vercel.app/"
+      },
+      {
+        "name": "Tick Tick",
+        "description": "A task management application built with the MERN stack, offering seamless task creation, updating, and deletion.",
+        "technologies": [
+          "Javascript",
+          "React",
+          "Redux-thunk",
+          "Node",
+          "Express",
+          "MongoDB",
+          "JWT"
+        ],
+        "githubLink": "https://github.com/Gourav094/task-manager",
+        "projectLink": "https://task-manager-edfl.onrender.com/"
+      },
+      {
+        "name": "Notes",
+        "description": "Project based on Javascript and React.js, stores user's data on their browser using local storage.",
+        "technologies": [
+          "Html",
+          "Css",
+          "Javascript",
+          "React",
+          "local storage"
+        ],
+        "githubLink": "https://github.com/Gourav094/Notes-app",
+        "projectLink": "https://notes-app-gourav094.vercel.app/"
+      },
+      {
+        "name": "Weather",
+        "description": "Developed with React.js and TailwindCss, with seamless design. By integrating with a weather API, it delivers accurate weather information for any location.",
+        "technologies": [
+          "Javascript",
+          "React",
+          "TailwindCSS",
+          "Weather API"
+        ],
+        "githubLink": "https://github.com/Gourav094/weather-forecast",
+        "projectLink": "https://weather03.vercel.app/"
+      },
+      {
+        "name": "Todo-list",
+        "description": "Website built with React.js, Tailwind CSS, and redux store for state management. We can create new todo and get the list according to active status.",
+        "technologies": [
+          "TailwindCSS",
+          "Javascript",
+          "React",
+          "Redux"
+        ],
+        "githubLink": "https://github.com/Gourav094/Todo",
+        "projectLink": "https://todo03.vercel.app/"
+      }
+    ]
+  }
+  

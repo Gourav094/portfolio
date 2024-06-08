@@ -1,0 +1,87 @@
+{
+    "projects": [
+      {
+        "name": "BudPing",
+        "description": "BudPing is a real-time chat application with an intuitive user interface that serves as a comprehensive solution for efficient communication, offering users a seamless platform to exchange messages instantly in real time.",
+        "technologies": [
+          "Javascript",
+          "TailwindCSS",
+          "React",
+          "Redux",
+          "Node",
+          "Express",
+          "Sockets",
+          "MongoDB"
+        ],
+        "githubLink": "https://github.com/Gourav094/budping",
+        "projectLink": "https://budping.onrender.com/",
+        "videoLink": "https://example.com/videos/BudPing.mp4",
+        "imageLink": "https://example.com/images/BudPing.png"
+      },
+      {
+        "name": "Chatflix",
+        "description": "Chatflix is a streaming platform that offers to watch TV shows and movies on an internet-connected device. Integrate dynamic data through TMDB API. Ensured data security with Authentication and Protected routes.",
+        "technologies": [
+          "Javascript",
+          "TailwindCSS",
+          "React",
+          "Redux",
+          "Firebase"
+        ],
+        "githubLink": "https://github.com/Gourav094/chatflix",
+        "projectLink": "https://chatflix03.netlify.app/",
+        "videoLink": "https://example.com/videos/Chatflix.mp4",
+        "imageLink": "https://example.com/images/chatflix.png"
+      },
+      {
+        "name": "HungerHub",
+        "description": "HungerHub is a food ordering platform built using parcel. Integrated lazy loading for faster response time and optimized initial loading. Ensured stability through comprehensive testing.",
+        "technologies": [
+          "Javascript",
+          "React",
+          "TailwindCSS",
+          "Redux",
+          "jest"
+        ],
+        "githubLink": "https://github.com/Gourav094/HungerHub",
+        "projectLink": "https://hungerhub03.netlify.app/",
+        "videoLink": "https://example.com/videos/HungerHub.mp4",
+        "imageLink": "https://example.com/images/hungerhub.png"
+      },
+      {
+        "name": "BooksHub",
+        "description": "A MERN stack project showcasing books by genres with authentication using Passport.js. Users can add books to their personal bookshelf, explore detailed book information, and search for their favorite titles.",
+        "technologies": [
+          "Javascript",
+          "React",
+          "TailwindCSS",
+          "Node",
+          "Express",
+          "MongoDB",
+          "Passport.js"
+        ],
+        "githubLink": "https://github.com/Gourav094/books-hub/",
+        "projectLink": "https://books-hub-3k1r.onrender.com/",
+        "imageLink": "https://example.com/images/booksHub.png"
+      },
+      {
+        "name": "Nasa-Mission-Control",
+        "description": "Build backend services for NASA mission control, integrating MongoDB for data integrity and leveraging SpaceX API for historical data analysis. Deployed on Docker containers via Amazon EC2, implementing CI/CD for efficient workflows.",
+        "technologies": [
+          "Javascript",
+          "React",
+          "Node",
+          "Express",
+          "MongoDB",
+          "jest",
+          "CI/CD",
+          "Docker",
+          "AWS"
+        ],
+        "githubLink": "https://github.com/Gourav094/nasa-mission",
+        "projectLink": "http://13.60.17.52:8000/",
+        "imageLink": "https://example.com/images/nasa-mission.png"
+      }
+    ]
+  }
+  

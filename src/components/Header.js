@@ -10,8 +10,8 @@ const Header = ({sectionsRefs}) => {
     };
 
     return (
-        <div className='bg-neutral-900 bg-opacity-95 top-0 z-50 sticky'>
-            <div className='py-6 px-4 md:px-32 flex justify-between items-center'>
+        <div className='bg-neutral-950 bg-opacity-95 top-0 z-50 sticky'>
+            <div className='py-6 px-4 flex justify-between items-center max-w-7xl mx-auto'>
                 <button className='text-gray-800 rounded-full h-10 w-10 text-3xl font-bold bg-[#ffc86b] px-1'>G</button>
                 <div>
                     <ul className='flex gap-6 text-base text-gray-300'>
