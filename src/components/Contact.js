@@ -18,7 +18,7 @@ const Contact =forwardRef((props, ref) => {
         setShowText(true)
     }
     return (
-        <div ref={ref} id='contact' className='text-white px-4 md:px-24 py-10 md:py-32 bg-neutral-900 bg-opacity-95 w-full '>
+        <div ref={ref} id='contact' className='text-white px-4 md:px-24 py-10 md:py-40 bg-neutral-900 bg-opacity-95 w-full '>
             <div className='flex items-center justify-center flex-col gap-4' data-aos="fade-up" data-aos-duration="500">
                 <h1 className='text-2xl md:text-4xl font-semibold'>Contact Me</h1>
                 <h1 className='text-center'>Interested in working together? We should schedule a time to chat.</h1>

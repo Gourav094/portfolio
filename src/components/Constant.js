@@ -1,27 +1,23 @@
 import chatflix from '../images/chatflix.png';
-import streamer from '../images/streamer.png';
 import hungerhub from '../images/hungerhub.png';
 import nasa from '../images/nasa-mission.png';
 import budping from '../images/BudPing.png';
 import booksHub from "../images/booksHub.png"
-import chatflixVideo from '../videos/Chatflix.mp4';
-import streamerVideo from '../videos/Streamer.mp4';
-import hungerhubVideo from '../videos/HungerHub.mp4';
-import budpingVideo from '../videos/BudPing.mp4';
+
 export const images  = {
-    chatflix,
-    streamer,
-    hungerhub,
-    nasa,
     budping,
-    booksHub
+    chatflix,
+    hungerhub,
+    booksHub,
+    nasa,
 }
 
 export const videos = {
-  chatflixVideo,
-  streamerVideo,
-  hungerhubVideo,
-  budpingVideo
+  chatflixVideo:"https://youtu.be/1R75Pud5rhM",
+  streamerVideo:"https://youtu.be/EizYMI6YLQ4",
+  hungerhubVideo:"https://youtu.be/NY6mrVng574",
+  budpingVideo:"https://youtu.be/ePOcgH0Qx8o",
+  booksHub:"https://youtu.be/76jD0iChWfg"
 }
 
 

@@ -13,10 +13,10 @@
           "Sockets",
           "MongoDB"
         ],
-        "githubLink": "https://github.com/Gourav094/budping",
-        "projectLink": "https://budping.onrender.com/",
-        "videoLink": "https://example.com/videos/BudPing.mp4",
-        "imageLink": "https://example.com/images/BudPing.png"
+        "github": "https://github.com/Gourav094",
+        "link": "https://budping.onrender.com/",
+        "video": "https://youtu.be/ePOcgH0Qx8o",
+        "image": "budping"
       },
       {
         "name": "Chatflix",
@@ -28,10 +28,10 @@
           "Redux",
           "Firebase"
         ],
-        "githubLink": "https://github.com/Gourav094/chatflix",
-        "projectLink": "https://chatflix03.netlify.app/",
-        "videoLink": "https://example.com/videos/Chatflix.mp4",
-        "imageLink": "https://example.com/images/chatflix.png"
+        "github": "https://github.com/Gourav094/chatflix",
+        "link": "https://chatflix03.netlify.app/",
+        "video": "https://youtu.be/1R75Pud5rhM",
+        "image": "chatflix"
       },
       {
         "name": "HungerHub",
@@ -43,14 +43,14 @@
           "Redux",
           "jest"
         ],
-        "githubLink": "https://github.com/Gourav094/HungerHub",
-        "projectLink": "https://hungerhub03.netlify.app/",
-        "videoLink": "https://example.com/videos/HungerHub.mp4",
-        "imageLink": "https://example.com/images/hungerhub.png"
+        "github": "https://github.com/Gourav094/HungerHub",
+        "link": "https://hungerhub03.netlify.app/",
+        "video": "https://youtu.be/NY6mrVng574",
+        "image": "hungerhub"
       },
       {
         "name": "BooksHub",
-        "description": "A MERN stack project showcasing books by genres with authentication using Passport.js. Users can add books to their personal bookshelf, explore detailed book information, and search for their favorite titles.",
+        "description": "A MERN stack link showcasing books by genres with authentication using Passport.js. Users can add books to their personal bookshelf, explore detailed book information, and search for their favorite titles.",
         "technologies": [
           "Javascript",
           "React",
@@ -60,9 +60,10 @@
           "MongoDB",
           "Passport.js"
         ],
-        "githubLink": "https://github.com/Gourav094/books-hub/",
-        "projectLink": "https://books-hub-3k1r.onrender.com/",
-        "imageLink": "https://example.com/images/booksHub.png"
+        "github": "https://github.com/Gourav094/books-hub/",
+        "link": "https://books-hub-3k1r.onrender.com/",
+        "video":"https://youtu.be/76jD0iChWfg",
+        "image": "booksHub"
       },
       {
         "name": "Nasa-Mission-Control",
@@ -78,9 +79,9 @@
           "Docker",
           "AWS"
         ],
-        "githubLink": "https://github.com/Gourav094/nasa-mission",
-        "projectLink": "http://13.60.17.52:8000/",
-        "imageLink": "https://example.com/images/nasa-mission.png"
+        "github": "https://github.com/Gourav094/nasa-mission",
+        "link": "http://13.60.17.52:8000/",
+        "image": "nasa-mission"
       }
     ]
   }

@@ -10,7 +10,7 @@ const Hero = forwardRef((props, ref) => {
     return (
 
         <div ref={ref} id='hero' className='bg-neutral-950 bg-opacity-95 md:min-h-screen w-full'>
-            <div className="max-w-7xl mx-auto px-10 py-10 md:py-32">
+            <div className="max-w-7xl mx-auto px-10 py-10 md:py-40">
                 <div className="flex flex-col md:flex-row items-center md:justify-between relative gap-16 md:gap-0  text-white">
                     <div className="flex flex-col">
                         <h1 className='text-xl '>Hello!, My name is</h1>
